@@ -41,14 +41,18 @@ and decision support systems.
 ### How to use it
 DivideIn10Folds.c makes a stratified partition of the dataset in training folds and testing folds. The dataset has to be in the working directory, and the way to execute the code through the command prompt is:
 - .\DivideIn10Folds flare.dat 10
-If receives 2 parameters, the name of the dataset to partition and the number of folds (10 folds)
+- 
+If receives 2 parameters, the name of the dataset to partition and the number of folds (10 folds).
+
 The execution returns:
+
 - Classes.dat, a file with the class labels and their frequency
 - Dataset1.dat, Dataset2.dat, ... Dataset10.dat: The training files, containing 90% of the instances that are used to mine the CARs. It follows the philosophy of a 10-fold cross validation.
 - 1.dat, 2.dat, ... 10.dat: the corresponding testing files of each of the previous files, containing the remaining 10% of the partition.
 
 SPAN-AC-Miner.c mines the positive and negative CARs. The user has to copy the files Dataset1.dat, Dataset2.dat, ... Dataset10.dat into the working directory, and also GenMax10Fold.bat, which generates the CARs per each training dataset. The lines of the .bat file have the following structure:
 - .\SPAN-AC-Miner.exe Dataset1.dat 0.001 RulesDataset1.dat 0.01 4.0 0.25 0.1
+- 
 The parameters are:
 - the input file (training dataset)
 - the minimum support threshold 
