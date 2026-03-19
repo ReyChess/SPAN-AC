@@ -37,3 +37,14 @@ training samples.
 SPAN-AC is particularly suitable for applications where interpretability,
 consistency, and robustness are essential, such as healthcare, security,
 and decision support systems.
+
+### How to use it
+DivideIn10Folds.c makes a stratified partition of the dataset in training folds and testing folds. The dataset has to be in the working directory, and the way to execute the code through the command prompt is:
+.\DivideIn10Folds flare.dat 10
+If receives 2 parameters, the name of the dataset to partition and the number of folds (10 folds)
+The execution returns:
+-Classes.dat, a file with the class labels and their frequency
+-Dataset1.dat, Dataset2.dat, ... Dataset10.dat: The training files, containing 90% of the instances that are used to mine the CARs. It follows the philosophy of a 10-fold cross validation.
+-1.dat, 2.dat, ... 10.dat: the corresponding testing files of each of the previous files, containing the remaining 10% of the partition.
+
+CARsMIner.c
