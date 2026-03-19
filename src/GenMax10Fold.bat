@@ -1,0 +1,10 @@
+.\GenReglasMaxTopKNegCARsAutoreadNoDedup.exe Dataset1.dat 0.005 ReglasDataset1.dat 0.01 4.0 0.25 0.1
+.\GenReglasMaxTopKNegCARsAutoreadNoDedup.exe Dataset2.dat 0.005 ReglasDataset2.dat 0.01 4.0 0.25 0.1
+.\GenReglasMaxTopKNegCARsAutoreadNoDedup.exe Dataset3.dat 0.005 ReglasDataset3.dat 0.01 4.0 0.25 0.1
+.\GenReglasMaxTopKNegCARsAutoreadNoDedup.exe Dataset4.dat 0.005 ReglasDataset4.dat 0.01 4.0 0.25 0.1
+.\GenReglasMaxTopKNegCARsAutoreadNoDedup.exe Dataset5.dat 0.005 ReglasDataset5.dat 0.01 4.0 0.25 0.1
+.\GenReglasMaxTopKNegCARsAutoreadNoDedup.exe Dataset6.dat 0.005 ReglasDataset6.dat 0.01 4.0 0.25 0.1
+.\GenReglasMaxTopKNegCARsAutoreadNoDedup.exe Dataset7.dat 0.005 ReglasDataset7.dat 0.01 4.0 0.25 0.1
+.\GenReglasMaxTopKNegCARsAutoreadNoDedup.exe Dataset8.dat 0.005 ReglasDataset8.dat 0.01 4.0 0.25 0.1
+.\GenReglasMaxTopKNegCARsAutoreadNoDedup.exe Dataset9.dat 0.005 ReglasDataset9.dat 0.01 4.0 0.25 0.1
+.\GenReglasMaxTopKNegCARsAutoreadNoDedup.exe Dataset10.dat 0.005 ReglasDataset10.dat 0.01 4.0 0.25 0.1
