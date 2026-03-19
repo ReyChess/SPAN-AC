@@ -47,4 +47,14 @@ The execution returns:
 -Dataset1.dat, Dataset2.dat, ... Dataset10.dat: The training files, containing 90% of the instances that are used to mine the CARs. It follows the philosophy of a 10-fold cross validation.
 -1.dat, 2.dat, ... 10.dat: the corresponding testing files of each of the previous files, containing the remaining 10% of the partition.
 
-CARsMIner.c
+SPAN-AC-Miner.c mines the positive and negative CARs. The user has to copy the files Dataset1.dat, Dataset2.dat, ... Dataset10.dat in the working directory, and also GenMax10Fold.bat, which generates the CARs per each training dataset. The lines of the .bat file have the following structure:
+.\SPAN-AC-Miner.exe Dataset1.dat 0.001 RulesDataset1.dat 0.01 4.0 0.25 0.1
+The parameters are:
+-the input file (training dataset)
+-the minimum support threshold 
+-the output file with the mined CARs
+-the minimum Netconf threshold for positive CARs
+-the negative multiplier m   (to obtain the threshold for negative CARs)
+-the quasi-exclusion threshold ε
+-the WRAcc Filter α
+After execution, the code return the 10 files with the positive and negative CARs, one per training dataset.
