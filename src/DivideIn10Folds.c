@@ -12,8 +12,7 @@
  * 					v.- Reporte de la eficiencia alcanzada.
  * 	@ d.- Ejecutar el paso c con cada una de las combinaciones de 9 que se pueden extraer de 10 sub-conjuntos.
  * 	@ e. Calculo de la eficiencia promedio del proceso.
- *  NOTA :- Aqui la clase por defecto se selecciona en dependencia de la clase cuyo conjunto de reglas representativo
- * 					tenga un promedio de netconf mayor
+ * 
  * */
 
 // directivas incluidas
