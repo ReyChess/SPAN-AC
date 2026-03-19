@@ -44,7 +44,7 @@ DivideIn10Folds.c makes a stratified partition of the dataset in training folds 
 
  .\DivideIn10Folds flare.dat 10
  
-If receives 2 parameters, the name of the dataset to partition and the number of folds (10 folds).
+It receives 2 parameters, the name of the dataset to partition and the number of folds (10 folds).
 
 The execution returns:
 
