@@ -73,6 +73,6 @@ SPAN-AC.cpp is the final classifier. The user has to copy Classes.dat, the testi
   
 The parameter is the output file with the accuracies per fold and the average accuracy. The execution returns also:
 
-- AnalisisInstancias.dat: contains informacion of every instance, like the assigned label class, the real class label, the CARs covering the instance per each class, and the count of correct classification until the current instance.
+- AnalisisInstancias.dat: contains informacion of every instance, like the assigned label class, the real class label, the CARs covering the instance per each class, and the count of correct classifications until the current instance.
 - stability_instance_log.csv: contains aditional info per each instance, like the best positive score, the second best positive score, if there is a near-tie situation that determines whether the covering negative CARs should be used or not to break a tie, etc.
 - stability_fold_summary.csv: contains info of each testing fold, like number of instances, number of instances correctly classified and accuracy. 
